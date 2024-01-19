@@ -1,7 +1,8 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1000"
-node [shape = rectangle, color="black"]; ":D002511" ":" "NCIT:C45292" ":" ":" ":" "mesh:T029" "loinc:LP31426-7" ":" "mesh:D019936" ":" "NCIT:C45290" "mesh:D004064" ":" "mesh:D056692" "loinc:MTHU001413" "mesh:D012867" ":" "NCIT:C45280" "loinc:MTHU001406" "loinc:LP7441-1" ":" ":" "NCIT:C45287" "ITO:data_1872" ":" ":" "EDAM:data_1044" ":" ":" "loinc:LP15265-9" "loinc:LP208558-9" "mesh:D005835" ":" "loinc:MTHU001408" "mesh:D009055" "NCIT:C45277" ; /*classes style*/
+node [shape = rectangle, color="black"]; ":D002511" ":" "NCIT:C45292" ":" ":" ":" "mesh:T029" "loinc:LP31426-7" "NCIT:C14283" ":" "mesh:D019936" ":" "NCIT:C45290" "mesh:D004064" ":" "mesh:D056692" "loinc:MTHU001413" "mesh:D012867" ":" "NCIT:C45280" "loinc:MTHU001406" "loinc:LP7441-1" ":" ":" "NCIT:C45287" "ITO:data_1872" "loinc:MTHU019420" ":" ":" "EDAM:data_1044" ":" ":" "loinc:LP15265-9" "loinc:LP208558-9" "mesh:D005835" ":" "loinc:MTHU001408" "mesh:D009055" "NCIT:C45277" ; /*classes style*/
+	":" -> "loinc:MTHU019420" [ label = "rdfs:subClassOf" ];
 	":" -> "loinc:LP31426-7" [ label = "rdfs:subClassOf" ];
 	"loinc:LP208558-9" -> "mesh:T029" [ label = "rdfs:subClassOf" ];
 	"loinc:MTHU001413" -> ":" [ label = "rdfs:subClassOf" ];
@@ -17,6 +18,7 @@ node [shape = rectangle, color="black"]; ":D002511" ":" "NCIT:C45292" ":" ":" ":
 	"mesh:D056692" -> ":" [ label = "rdfs:subClassOf" ];
 	"mesh:D019936" -> ":" [ label = "rdfs:subClassOf" ];
 	"mesh:D005835" -> "mesh:T029" [ label = "rdfs:subClassOf" ];
+	"NCIT:C14283" -> "loinc:MTHU019420" [ label = "rdfs:subClassOf" ];
 	"NCIT:C45287" -> "ITO:data_1872" [ label = "rdfs:subClassOf" ];
 	"NCIT:C45290" -> "ITO:data_1872" [ label = "rdfs:subClassOf" ];
 	"loinc:MTHU001406" -> ":" [ label = "rdfs:subClassOf" ];
