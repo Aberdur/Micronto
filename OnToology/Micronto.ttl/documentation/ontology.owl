@@ -509,6 +509,7 @@
 
 
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14283">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/LNC/MTHU019420"/>
         <owl:disjointWith rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/41146007"/>
     </owl:Class>
     
@@ -808,7 +809,9 @@
     <!-- http://purl.bioontology.org/ontology/SNOMEDCT/41146007 -->
 
 
-    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/41146007"/>
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/41146007">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/LNC/MTHU019420"/>
+    </owl:Class>
     
 
 
@@ -1650,7 +1653,7 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.bioontology.org/ontology/MESH/D019936">
         <dc:description xml:lang="en">Denotes microorganisms that, when ingested, may have a positive impact on mental health and cognitive function, influencing the bidirectional communication between the gut and the brain.</dc:description>
-        <rdfs:label xml:lang="en">Psicobiotic</rdfs:label>
+        <rdfs:label xml:lang="en">Psychobiotic</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.bioontology.org/ontology/MESH/D056692">
         <dc:description xml:lang="en">Substances, typically non-digestible fibers, that promote the growth and activity of beneficial microorganisms in the gastrointestinal tract.</dc:description>

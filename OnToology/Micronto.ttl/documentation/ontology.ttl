@@ -309,6 +309,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14283
 <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14283> rdf:type owl:Class ;
+                                                            rdfs:subClassOf <http://purl.bioontology.org/ontology/LNC/MTHU019420> ;
                                                             owl:disjointWith <http://purl.bioontology.org/ontology/SNOMEDCT/41146007> .
 
 
@@ -478,7 +479,8 @@ xsd:date rdf:type rdfs:Datatype .
 
 
 ###  http://purl.bioontology.org/ontology/SNOMEDCT/41146007
-<http://purl.bioontology.org/ontology/SNOMEDCT/41146007> rdf:type owl:Class .
+<http://purl.bioontology.org/ontology/SNOMEDCT/41146007> rdf:type owl:Class ;
+                                                         rdfs:subClassOf <http://purl.bioontology.org/ontology/LNC/MTHU019420> .
 
 
 ###  http://purl.bioontology.org/ontology/SNOMEDCT/767279008
@@ -1018,7 +1020,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 
 <http://purl.bioontology.org/ontology/MESH/D019936> <http://purl.org/dc/elements/1.1/description> "Denotes microorganisms that, when ingested, may have a positive impact on mental health and cognitive function, influencing the bidirectional communication between the gut and the brain."@en ;
-                                                    rdfs:label "Psicobiotic"@en .
+                                                    rdfs:label "Psychobiotic"@en .
 
 
 <http://purl.bioontology.org/ontology/MESH/D056692> <http://purl.org/dc/elements/1.1/description> "Substances, typically non-digestible fibers, that promote the growth and activity of beneficial microorganisms in the gastrointestinal tract."@en ;
