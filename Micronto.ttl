@@ -342,6 +342,7 @@ NCIT:C12701 rdf:type owl:Class .
 
 ###  http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14283
 NCIT:C14283 rdf:type owl:Class ;
+            rdfs:subClassOf loinc:MTHU019420 ;
             owl:disjointWith <http://purl.bioontology.org/ontology/SNOMEDCT/41146007> .
 
 
@@ -511,7 +512,8 @@ mesh:T029 rdf:type owl:Class .
 
 
 ###  http://purl.bioontology.org/ontology/SNOMEDCT/41146007
-<http://purl.bioontology.org/ontology/SNOMEDCT/41146007> rdf:type owl:Class .
+<http://purl.bioontology.org/ontology/SNOMEDCT/41146007> rdf:type owl:Class ;
+                                                         rdfs:subClassOf loinc:MTHU019420 .
 
 
 ###  http://purl.bioontology.org/ontology/SNOMEDCT/767279008
@@ -1051,7 +1053,7 @@ mesh:D012867 dc:description "Microbiota residing on the skin's surface, influenc
 
 
 mesh:D019936 dc:description "Denotes microorganisms that, when ingested, may have a positive impact on mental health and cognitive function, influencing the bidirectional communication between the gut and the brain."@en ;
-             rdfs:label "Psicobiotic"@en .
+             rdfs:label "Psychobiotic"@en .
 
 
 mesh:D056692 dc:description "Substances, typically non-digestible fibers, that promote the growth and activity of beneficial microorganisms in the gastrointestinal tract."@en ;
