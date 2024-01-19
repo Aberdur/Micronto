@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/Aberdur/Micronto/blob/main/logo.png" alt="Micronto Ontology Logo" width="100">
+  <img src="https://github.com/Aberdur/Micronto/blob/main/logo.png" alt="Micronto Ontology Logo" width="300">
 </p>
 
 Microbiota on Human Health Ontology (Micronto)
