@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/Aberdur/Micronto/blob/main/logo.png" alt="Micronto Ontology Logo">
+</p>
+
 Microbiota on Human Health Ontology (Micronto)
 
 Alejandro Bernabeu Duréndez & Alberto González Calatayud
