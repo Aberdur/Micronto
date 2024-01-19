@@ -151,6 +151,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Virus"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.bioontology.org/ontology/LNC/MTHU019420"
+  } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
     "@id" : "http://purl.bioontology.org/ontology/SNOMEDCT/41146007"
   } ]
@@ -659,7 +662,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "Psicobiotic"
+    "@value" : "Psychobiotic"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://vocabs.lter-europe.net/EnvThes/21962"
@@ -742,6 +745,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Bacterium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.bioontology.org/ontology/LNC/MTHU019420"
   } ]
 }, {
   "@id" : "http://purl.bioontology.org/ontology/SNOMEDCT/767279008",

@@ -276,6 +276,7 @@
 # 
 # http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14283
 <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14283> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14283> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/LNC/MTHU019420> .
 <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14283> <http://www.w3.org/2002/07/owl#disjointWith> <http://purl.bioontology.org/ontology/SNOMEDCT/41146007> .
 # 
 # http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25150
@@ -409,6 +410,7 @@
 # 
 # http://purl.bioontology.org/ontology/SNOMEDCT/41146007
 <http://purl.bioontology.org/ontology/SNOMEDCT/41146007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.bioontology.org/ontology/SNOMEDCT/41146007> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.bioontology.org/ontology/LNC/MTHU019420> .
 # 
 # http://purl.bioontology.org/ontology/SNOMEDCT/767279008
 <http://purl.bioontology.org/ontology/SNOMEDCT/767279008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -848,7 +850,7 @@
 <http://purl.bioontology.org/ontology/MESH/D012867> <http://www.w3.org/2000/01/rdf-schema#label> "Skin" .
 # 
 <http://purl.bioontology.org/ontology/MESH/D019936> <http://purl.org/dc/elements/1.1/description> "Denotes microorganisms that, when ingested, may have a positive impact on mental health and cognitive function, influencing the bidirectional communication between the gut and the brain."@en .
-<http://purl.bioontology.org/ontology/MESH/D019936> <http://www.w3.org/2000/01/rdf-schema#label> "Psicobiotic"@en .
+<http://purl.bioontology.org/ontology/MESH/D019936> <http://www.w3.org/2000/01/rdf-schema#label> "Psychobiotic"@en .
 # 
 <http://purl.bioontology.org/ontology/MESH/D056692> <http://purl.org/dc/elements/1.1/description> "Substances, typically non-digestible fibers, that promote the growth and activity of beneficial microorganisms in the gastrointestinal tract."@en .
 <http://purl.bioontology.org/ontology/MESH/D056692> <http://www.w3.org/2000/01/rdf-schema#label> "Prebiotic"@en .
