@@ -1,7 +1,10 @@
-Microbiota on Human Health Ontology (Micronto)\n
-Alejandro Bernabeu Duréndez & Alberto González Calatayud\n
-Semantic Technologies \n
-Computational Biology (UPM)\n
+Microbiota on Human Health Ontology (Micronto)
+
+Alejandro Bernabeu Duréndez & Alberto González Calatayud
+
+Semantic Technologies 
+
+Computational Biology (UPM)
 
 Overview The Microbiota on Human Health Ontology, or Micronto, is a semantic representation of the relationships between various elements related to the microbiota and its impact on human health. This ontology is designed to provide a structured and standardized framework for capturing knowledge about the intricate interplay between microbial communities and human well-being.
 
